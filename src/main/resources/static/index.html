@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">EduConnect</a>
+        <nav>
+          <a href="#courses">Courses</a>
+          <a href="#quizzes">Quizzes</a>
+          <a href="#videos">Videos</a>
+          <a href="#community">Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container hero-content">
+          <h1>Learn Anytime, Anywhere</h1>
+          <p>Empower your education with study guides, video lessons, quizzes, and a community discussion board.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#courses">Explore Courses</a>
+            <a class="btn secondary" href="#community">Join the Community</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="feature-section container">
+        <h2>What You Can Do</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Study Materials</h3>
+            <p>Access concise notes, summaries, and downloadable guides designed for clear learning.</p>
+          </article>
+          <article>
+            <h3>Interactive Quizzes</h3>
+            <p>Test your knowledge with instant feedback and progress tracking.</p>
+          </article>
+          <article>
+            <h3>Video Lessons</h3>
+            <p>Learn from short video tutorials that explain concepts in an engaging way.</p>
+          </article>
+          <article>
+            <h3>Discussion Forums</h3>
+            <p>Ask questions, share ideas, and connect with other students.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="courses" class="section-light container">
+        <div class="section-header">
+          <h2>Featured Courses</h2>
+          <p>Start with these learning paths curated for students.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Mathematics</h3>
+            <p>Fundamentals, algebra, geometry, and problem-solving practice.</p>
+          </article>
+          <article class="card">
+            <h3>Science</h3>
+            <p>Explore biology, chemistry, physics, and scientific thinking.</p>
+          </article>
+          <article class="card">
+            <h3>Language Arts</h3>
+            <p>Improve reading, writing, grammar, and communication skills.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="quizzes" class="container">
+        <div class="section-header">
+          <h2>Quiz Practice</h2>
+          <p>Try a quick quiz and check your score instantly.</p>
+        </div>
+        <div class="quiz-panel">
+          <p class="quiz-question">What does SDG 4 stand for?</p>
+          <div class="quiz-options">
+            <button data-answer="wrong">Zero Hunger</button>
+            <button data-answer="wrong">Good Health</button>
+            <button data-answer="correct">Quality Education</button>
+            <button data-answer="wrong">Clean Water</button>
+          </div>
+          <p id="quiz-result" class="quiz-result"></p>
+        </div>
+      </section>
+
+      <section id="videos" class="section-light container">
+        <div class="section-header">
+          <h2>Video Lessons</h2>
+          <p>Short tutorials to reinforce your learning.</p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <h3>How to Study Effectively</h3>
+            <p>Techniques for focus, notes, and retention.</p>
+          </article>
+          <article class="video-card">
+            <h3>Exam Preparation</h3>
+            <p>Plan your study time and reduce test stress.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="community" class="container">
+        <div class="section-header">
+          <h2>Community Forum</h2>
+          <p>Share ideas and collaborate with fellow learners.</p>
+        </div>
+        <div class="community-card">
+          <p>Coming soon: a discussion board where students can ask questions and support each other.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 EduConnect. Supporting SDG 4: Quality Education.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
